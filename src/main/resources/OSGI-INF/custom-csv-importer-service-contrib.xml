@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.sample.CustomCSVImporter">
+
+  <require>org.nuxeo.ecm.csv.core.CSVImporter</require>
+
+  <implementation class="org.nuxeo.sample.service.CustomCSVImporterImpl" />
+
+  <service>
+    <provide interface="org.nuxeo.ecm.csv.core.CSVImporter"/>
+  </service>
+
+</component>
